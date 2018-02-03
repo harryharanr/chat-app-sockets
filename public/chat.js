@@ -1,5 +1,5 @@
 // Make connection
-var socket = io.connect('http://angular2-node.ap-south-1.elasticbeanstalk.com');
+var socket = io.connect('https://stormy-tor-97453.herokuapp.com/');
 
 // Query DOM
 var message = document.getElementById('message'),
